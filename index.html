@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-project-diagram"></i> Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+
+    <!-- Main Content -->
+    <header class="header-section d-flex flex-column flex-md-row align-items-center justify-content-between px-5 text-white">
+        <div class="d-flex flex-column justify-content-center text-center text-md-start header-text">
+            <h1 class="fw-bold">Chayapol Lamthien</h1>
+            <p class="lead">IoT Information and Industrial Physics Program | KMITL Engineering</p>
+        </div>
+    
+        <!-- Image Slideshow -->
+        <div id="profileCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/ne.jpg" class="img-fluid rounded" alt="Chayapol">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/2.jpg" class="img-fluid rounded" alt="Chayapol">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/mo.jpg" class="img-fluid rounded" alt="Chayapol">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+ 
+    <div class="container text-center my-5">
+        <!-- Profile Section -->
+        <section id="profile" class="section bg-light py-5 rounded shadow-lg">
+            <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between flex-wrap text-md-start text-center">
+                <!-- Profile Text -->
+                <div class="flex-grow-1 px-4">
+                    <h2 class="fw-bold text-primary">Profile</h2>
+                    <p class="text-muted">
+                        A passionate and driven IoT and software developer with a foundation in programming and design. Skilled in creating AI-powered and web-based solutions, with experience in developing functional, user-friendly applications. Possesses knowledge of Python, JavaScript, cloud computing, and more, along with hardware integration using Arduino and Raspberry Pi. Always eager to learn, adapt, and grow in the ever-evolving tech industry
+                    </p>
+                    <ul class="list-unstyled mt-3">
+                        <li><strong>Nickname:</strong> Nemo</li>
+                        <li><strong>Age:</strong> 21</li>
+                        <li><strong>GPA (5 semesters):</strong> 3.30</li>
+                        <li><strong>Institution:</strong> King Mongkut's Institute of Technology Ladkrabang</li>
+                        <li><strong>Faculty:</strong> Faculty of Engineering</li>
+                        <li><strong>Department:</strong> Computer Engineering</li>
+                        <li><strong>Major:</strong> IoT and Information Systems Engineering & Industrial Physics</li>
+                    </ul>
+                </div>
+                <!-- Profile Image -->
+                <div class="flex-grow-1 text-center">
+                    <img src="img/cha.jpg" alt="Chayapoll" class="img-fluid border-primary" style="max-width: 200px;">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        
+         <!-- Skills Section -->
+        <section id="skills" class="container mt-5">
+            <h3 class="text-center"><i class="fas fa-code"></i> Skills</h3>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h5>Hard Skills</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">HTML/CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Arduino</li>
+                        <li class="list-group-item">SQL</li>
+                        <li class="list-group-item">Node.js</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Soft Skills</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Analytical Thinking</li>
+                        <li class="list-group-item">Collaboaration</li>
+                        <li class="list-group-item">Adaptability</li>
+                        <li class="list-group-item">Creativity</li>
+                        <li class="list-group-item">Critical Thinking</li>
+                        <li class="list-group-item">Complex Problem Solving</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="text-center">Experience</h2>
+                <div class="accordion" id="experienceAccordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                AI Classification Cheese Website | 2024
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                            <div class="accordion-body">
+                                Designed the website page with Figma. Created a responsive website for AI cheese classification using HTML/CSS. Deployed the site on AWS S3 and optimized its functionality. Integrated an API to enable communication between the website and AWS cloud, sending cheese information for AI processing and displaying the results on the site.
+                            </div>
+                            <ul class="mt-3 ms-4">
+                                <li><strong>Technologies Used:</strong> Figma, HTML, CSS, JavaScript, Jupyter, AWS</li>
+                                <li><strong>AI Model:</strong> AI-based predictions to identify the type of cheese, its category, and suitable pairings.</li>
+                                <li><strong>Design Process:</strong> The design was created using Figma and then implemented in HTML and CSS, with functionality handled using JavaScript.</li>
+                                <li><strong>Data Handling:</strong> The AI model was trained using Jupyter Notebook, with the dataset stored in CSV format to retrieve necessary data for training.</li>
+                                <li><strong>Deployment:</strong> The project was deployed on the AWS cloud platform.</li>
+                            </ul>
+                            <a href="https://github.com/lopayahc/AI-Classification-Cheese-Website" target="_blank" class="mt-2 ms-4 mb-3 d-block">Details</a>
+
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                AI JAM: Future Entrepreneur | 2024
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                            <div class="accordion-body">
+                                Participated in a competition to present an idea for managing restaurant stock, predicting customer numbers, and reducing food waste with AI. Designed the program's layout and functionality, and presented it to judges at Sripatum University. Awarded Second Runner-up (Third Place).
+                            </div>
+                            <ul class="mt-3 ms-4">
+                                <li><strong>Technologies Used:</strong> Figma, HTML, CSS</li>
+                                <li><strong>Competition:</strong> AI JAM: Future Entrepreneur, 2nd Runner-up, Sripatum University</li>
+                                <li><strong>Project Focus:</strong> Raw material management, predicting daily usage, forecasting the number of people, and predicting income and expenses using AI.</li>
+                                <li><strong>Design & Simulation:</strong> The application design and simulation were created using Figma.</li>
+                                <li><strong>Presentation:</strong> A business plan proposal was presented as part of the competition.</li>
+                            </ul>
+                            <a href="https://github.com/lopayahc/AI-JAM-Future-Entrepreneur" target="_blank" class="mt-2 ms-4 mb-3 d-block">Details</a>
+
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                DealGo Application | 2023
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                            <div class="accordion-body">
+                                Designed the user interfaces for an app that allows users to create accounts, join activities organized by others, or organize their own events. Users can specify the number of participants, location, time, activity type, and age group. The app also includes a chat feature for participant communication.
+                            </div>
+                            <ul class="mt-3 ms-4">
+                                <li><strong>Technologies Used:</strong> Figma, MIT App Inventor, 000webhost, SQL</li>
+                                <li><strong>Project Focus:</strong> Designed to help users find travel companions or activity partners.</li>
+                                <li><strong>Design & Development:</strong> The design was created in Figma, and the app was developed and tested using MIT App Inventor. This includes function design and layout.</li>
+                                <li><strong>Database:</strong> The database for the app was hosted on 000webhost and managed with SQL.</li>
+                            </ul>
+                            <a href="https://github.com/lopayahc/DealGo-Application" target="_blank" class="mt-2 ms-4 mb-3 d-block">Details</a>
+
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Automated Medication Dispenser | 2023
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour">
+                            <div class="accordion-body">
+                                Used a Raspberry Pi 4 and webcam to scan QR codes containing patient prescription information. The scanned data was sent to an Arduino, which controlled a motorized dispensing mechanism to dispense medication. Developed a prototype and designed the dispensing system.
+                            </div>
+                            <ul class="mt-3 ms-4">
+                                <li><strong>Technologies Used:</strong> Flutter, IoT, JavaScript, SolidWorks</li>
+                                <li><strong>Project Purpose:</strong> Designed to improve convenience and reduce congestion in hospitals.</li>
+                                <li><strong>Application Development:</strong> Built using Flutter for the frontend.</li>
+                                <li><strong>IoT Integration:</strong> Implemented using Arduino IDE and VNC.</li>
+                                <li><strong>Hardware Components:</strong> Arduino UNO and Raspberry Pi 4.</li>
+                                <li><strong>Mechanical Design:</strong> Created using SolidWorks.</li>
+                            </ul>
+                            <a href="https://github.com/lopayahc/Automated-Medication-Dispenser" target="_blank" class="mt-2 ms-4 mb-3 d-block">Details</a>
+
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Flood Water Level Detection | 2022
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse show " aria-labelledby="headingFive">
+                            <div class="accordion-body">
+                                Created a flood level detection device that alerts users about suitable vehicle types based on water levels. It uses an ultrasonic sensor connected to an Arduino and ESP8266, transmitting data to a simulated website via Node-RED.
+                            </div>
+                            <ul class="mt-3 ms-4">
+                                <li><strong>Technologies Used:</strong> C++, Arduino, ESP8266, Ultrasonic Sensor</li>
+                                <li><strong>Map Visualization:</strong> A map was created using Node-RED.</li>
+                                <li><strong>Project Purpose:</strong> A solution to the problem of measuring water levels during flooding and notifying users of the current water level.</li>
+                                <li><strong>Notification System:</strong> The water level data is sent to a website to help users determine safe travel routes.</li>
+                            </ul>
+                            <a href="https://github.com/lopayahc/Flood-Water-Level-Detection/tree/main" target="_blank" class="mt-2 ms-4 mb-3 d-block">Details</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section text-center bg-light">
+            <div class="container">
+                <div class="text-start ms-4">
+                    <p>
+                        Chayapol Lamthien<br>
+                        King Mongkut's Institute of Technology Ladkrabang<br>
+                        1 Chalong Krung 1 Alley,<br>
+                        Lat Krabang, Bangkok 10520, Thailand.
+                    </p>
+                    <p>Email: chayapol.nem@gmail.com</p>
+                    <p>Phone: +6696-717-1234</p>
+                </div>               
+                <!-- Social Media Icons -->
+                <div class="mt-3">
+                    <a href="https://www.facebook.com/nnemo.chayapol" target="_blank" class="me-3">
+                        <i class="bi bi-facebook fs-3"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nemoinaquarium" target="_blank" class="me-3">
+                        <i class="bi bi-instagram fs-3"></i>
+                    </a>
+                    <a href="mailto:chayapol.nem@gmail.com" target="_blank" class="me-3">
+                        <i class="bi bi-envelope fs-3"></i>
+                    </a>
+                    <a href="https://github.com/lopayahc" target="_blank">
+                        <i class="bi bi-github fs-3"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <div class="footer">
+        &copy; chayapol 2025
+    </div>
+</body>
+</html>
